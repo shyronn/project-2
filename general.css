@@ -1,3 +1,8 @@
+/*
+########################### Notes for Mandi #########################
+I'm not positive what actually needs to go between the @charset and the begining of mu css. If I have anything missing or have anything that needs to be removed, please let me know. Thanks.
+*/
+
 @charset "utf-8";
 
 * {
@@ -14,6 +19,8 @@ html {
     
     font-size: 100%;
 }
+
+/*######### Fonts #########*/
 
 @font-face {
     font-family: 'aleo';
@@ -47,7 +54,6 @@ html {
          url('fonts/sinage-webfont.svg#signage') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -65,14 +71,11 @@ header {
     max-width: 8rem;
     height: auto; 
     float:left;
-    margin: 1rem 2rem; 
-/*    background-image: url(images/iceland-logo.svg); */
+    margin: 1rem 2rem;
 }
 
-/* not sure why there's a small version of the logo appearing when hovered*/
-
 .logo:hover { 
-    background-image: url(images/iceland-logo3.svg); 
+    background-image: url(images/iceland-logo8.svg); 
 }
 
 .nav-top {
@@ -156,8 +159,6 @@ header {
     height: 30rem;
 }
 
-/*I don't know how to keep the fig caption attached to the photo*/
-
 .align-left {
     float: left;
     margin-right: 1rem;
@@ -192,7 +193,6 @@ p span {
 
 article {
     margin: 0;
-    /*padding: 1.5rem 5%;*/
 }
 
 h1 {
@@ -203,8 +203,9 @@ h1 {
     color: white;
     letter-spacing: +.11rem;
     line-height: 3rem;
-    
 }
+
+/*######### I'd like to know how to create even padding around my h1 background colour, but I'm not sure how to do that when I created a break in the heading (resulting in uneven left padding for the second word) #######*/
 
 h1 span {
     color: white;
@@ -237,6 +238,7 @@ h2 {
     font-size: 2rem;
 }
 
+/*######### is there a way to adjust the space between paragraphs... my spaces are huge, lol #########*/
 p {
     margin: 0 0 1.5rem;
     padding: 4.5rem;
@@ -280,7 +282,9 @@ footer {
     color: #4c344c;
 }
 
-/*#####################iphone###################*/
+/*########## Although my @media go from small to large, they seem to work only individually and not together. I'm not really sure what I am doing wrong? to prevent them from working ########*/
+    
+    /*#####################iphone###################*/
 
 @media screen and (max-width: 500px) {
     
