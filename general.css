@@ -233,6 +233,7 @@ footer {
     p::first-line { 
     text-transform: uppercase;
 }
+    
     .intro {
     font-size: 1.25rem;
     line-height: 2rem;
@@ -244,7 +245,7 @@ footer {
     }
     
     p::first-line { 
-    background-color: rgba(54, 124, 143, .2);
+    background-color: rgba(54, 124, 143, .1);
 }
     .intro {
     font-size: 1.25rem;
