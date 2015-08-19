@@ -255,6 +255,15 @@ footer {
     line-height: 2rem;
     color: gray;
 }
+    
+    p {
+    padding: 1rem; 
+}
+
+h1 {
+    padding: 1rem;
+}
+    
 }
 
 
