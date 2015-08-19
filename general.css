@@ -241,6 +241,13 @@ footer {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+    .trail {
+    margin: auto;
+    width: 100%;
+/*    border:3px solid #8AC007;*/
+    padding: 1rem;
+}
+    
     p {
     font-size: 1.1rem;
     line-height: 2.2rem;
