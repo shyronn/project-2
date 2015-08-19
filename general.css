@@ -99,11 +99,16 @@ header {
 
 /*I don't know how to keep the fig caption attached to the photo*/
 
-figcaption {
+.align-left {
     float: left;
+    margin-right: 1rem;
+}
+
+figcaption {
     clear: both;
     margin: 2rem;
     font-size: .75rem;
+    color: gray;
 }
 
 .trail {
@@ -164,7 +169,7 @@ h2 {
     padding-bottom: 0;
     text-align: center;
     color: gray;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 p {
@@ -205,14 +210,25 @@ footer {
 .nav-bottom a:hover {
     color: #4c344c;
 }
-    
-@media screen and (max-width: 480px) {
+
+/*
+@media screen and (max-width: 800px){
+    h2 {
+    color: blue;
+  }
+  
+  @media screen and (min-width: 600px){
+      h2 {
+      color: red;
+    }
+*/
+
+@media screen and (max-width: 450px) {
     
     h1 {
     font-size: 1.25rem;
     line-height: 2.25rem;
-    
-    }
+}
     
     h1 span {
     color: white;
@@ -231,23 +247,42 @@ footer {
     }
     
     p::first-line { 
-    text-transform: uppercase;
+    background-color: rgba(188, 134, 132, .2);
 }
+    
     .intro {
     font-size: 1.25rem;
     line-height: 2rem;
+    color: gray;
 }
 }
 
 
-@media screen and (max-width: 600px) {
+/*
+@media screen and (min-width: 580px) {
     }
     
     p::first-line { 
-    background-color: rgba(54, 124, 143, .2);
+    background-color: rgba(54, 124, 143, .1);
+}
+    .intro {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: pink;
+}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1040px) {
+    }
+    
+    p::first-line { 
+    background-color: rgba(54, 124, 143, .1);
+    color: red;
 }
     .intro {
     font-size: 1.25rem;
     line-height: 2rem;
 }
 }
+*/
